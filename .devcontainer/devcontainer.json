@@ -1,0 +1,12 @@
+{
+    "name": "QuestDB Dev Container",
+    "image": "questdb/questdb:latest",
+    "forwardPorts": [9000, 9009, 8812, 9003],
+    "customizations": {
+        "vscode": {
+            "extensions": [
+            ]
+        }
+    },
+    "features": {}
+}
